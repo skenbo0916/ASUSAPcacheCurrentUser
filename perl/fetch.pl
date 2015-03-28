@@ -12,10 +12,10 @@ BEGIN {
 use WWW::Mechanize;
 use JSON;
 
-our $host = 'mixerStudio.asuscomm.com'; # fill in your host name or static IP address
-our $port = 5566; # change port by your setting
-our $username = 'admin'; # fill in your admin. username
-our $password = 'mixer'; # fill in your password
+our $host = ''; # fill in your host name or static IP address
+our $port = 80; # change port by your setting
+our $username = '' # fill in your admin. username
+our $password = ''; # fill in your password
 
 fetch();
 
